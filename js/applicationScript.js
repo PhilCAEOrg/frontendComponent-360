@@ -41,6 +41,7 @@ var init = function() {
   };
  
   console.log("Test3"); 
+  console.log("Test4");
 
   client = new Las2peerWidgetLibrary("$Microservice_Url$/todo", iwcCallback, '*'); 
  
