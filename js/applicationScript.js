@@ -39,7 +39,8 @@ var init = function() {
     console.log(intent);
 
   };
- 
+  
+  console.log("Test2");
   console.log("Test3"); 
   console.log("Test4");
 
