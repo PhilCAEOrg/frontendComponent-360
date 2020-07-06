@@ -39,8 +39,14 @@ var init = function() {
     console.log(intent);
 
   };
+ 
+  console.log("Test3"); 
 
-  client = new Las2peerWidgetLibrary("$Microservice_Url$/todo", iwcCallback, '*');
+  client = new Las2peerWidgetLibrary("$Microservice_Url$/todo", iwcCallback, '*'); 
+ 
+  client.sendRequest("GET", "todo", "", "", {}, false, function(data, type) {}, function(error){}); 
+ 
+  document.getElementById("input_e64b8").value = "Test";
 
 
 
